@@ -1,0 +1,536 @@
+/*
+style  for the website Hr job
+The Coder : Hakim Alabbasi
+the firstColor:#05826d
+the  SeCondColor:#ec1c23
+*/
+
+/*  Start Upper Bar */
+
+.body{
+  height:1200px;
+}
+.upper-bar
+{
+  background-color:#08526d;
+  color:#fff;
+  padding:10px;
+}
+
+.upper-bar span
+{
+  color:#bfc6c9;
+}
+
+.upper-bar .get-Quote
+{
+  display:inline-block;
+  border:1px solid yellow;
+  padding: 2px 10px;
+  margin-left:20px;
+}
+
+/*  End Upper Bar */
+/* Navbar */
+
+.navbar
+{
+  background:#fff;
+  color:#000;
+
+  .margin-top:-10px;
+}
+.navbar-brand
+{
+  margin-left:10%;
+  color:#000;
+  border-left:3px solid red;
+}.navbar-brand > span
+{
+
+font-size:20px;
+}
+.navbar-brand
+{
+  margin-left:10%;
+  color:#000;
+  border-left:3px solid red;
+}
+.navbar-brand span:first-child
+{
+  font-weight:bold;
+  color:#08526d;
+}
+.navbar-brand span:last-child
+{
+  color:#ec1c23;
+}
+
+.navbar-nav
+{
+  margin-right:5%;
+}
+
+.navbar-nav .active>.nav-link
+{
+  color:#ec1c23 !important;
+}
+
+
+.nav-item .nav-link:hover
+{
+  color:darkred  !important;
+
+
+}
+.dropdown-item
+{
+  text-align: center;
+
+}
+.dropdown-item:hover
+{
+  background-color:#000;
+  color:#fff;
+  text-align: center;
+
+}
+
+/* navbar */
+
+/* Slider */
+
+
+.slider
+{
+  background-color:#ddd;
+}
+
+.slider .carousel-inner .overlay
+{
+  position: absolute;
+   width:100%;
+   height:100%;
+   left:0;
+   top:0;
+   background-color:rgba(0, 0, 0, .6);
+   z-index:15;
+}
+
+.overlay h1
+{
+  color:#fff;
+}
+
+.slider .carousel-item{
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slider .carousel-one
+{
+  background:url('../images/slider1.jpeg');
+}
+.slider .carousel-two
+{
+  background:url('../images/slider9.jpeg');
+}
+.slider .carousel-three
+{
+  background:url('../images/slider6.jpg');
+}
+.slider .carousel-four
+{
+  background:url('../images/slider5.jpg');
+}
+.slider .carousel-indicators li{
+  height:5px;
+
+  cursor:pointer;
+
+}
+/*slider*/
+
+/* features */
+
+.features
+{
+  padding:50px 0;
+
+}
+
+.features-head
+{
+  margin-bottom:5%;
+}
+
+.features-head h4
+{
+
+  font-size:30px;
+  color:#08526d;
+}
+.features-head .dropdown-divider
+{
+  width:300px;
+  margin-top:5px;
+  margin-left:40%;
+  margin-bottom:25px;
+
+
+}
+.features i
+{/*
+
+  background-color:red;
+  padding:8px;
+  width:100px;
+  height:100px;
+  line-height:100px;
+  border-radius:100px;
+  #08526d
+  #ec1c23
+  */
+  background-color:#ec1c23;
+  color:#fff;
+  padding:12px;
+}
+.features h3
+{
+  color:#08526d;
+  margin-top:10px;
+}
+
+.features p
+{
+  color:gray;
+  margin-bottom:40px;
+}
+/* features */
+/* company info */
+
+.Overview
+{
+  .background:url('../images/slider4.jpg');
+  .background-position: center center;
+  .background-repeat: no-repeat;
+  .background-size: cover;
+  .background-attachment: fixed;
+  background:#eee;
+  .height:400px;
+  padding:100px 0;
+}
+
+.Overview .btn
+{
+  background-color:orange;
+  width:200px;
+  padding:10px;
+  border:none;
+}
+
+.Overview .btn:hover
+{
+  background-color:#ec1c23;
+  color:#fff;
+}
+.Overview h1
+{
+  text-transform:uppercase;
+  margin-top:-30px;
+  color:#08526d;
+  font-size:50px;
+  margin-bottom:25px;
+}
+.Overview h4
+{
+
+  color:#000;
+  margin-bottom:25px;
+  letter-spacing:5px;
+  margin-bottom:5%;
+  font-size:18px;
+}
+.Overview p
+{
+
+  .color:#fff;
+}
+
+.testimonails
+{
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+  -o-background-size: cover;
+  background:url('../images/slider4.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+.height:500px;
+  padding:100px 0;
+
+}
+.testimonails .overlay
+{
+
+  position: absolute;
+   width:100%;
+   height:100%;
+   left:0;
+   top:0;
+   background-color:rgba(0, 0, 0, .6);
+   z-index:-5;
+
+}
+
+.testimonails .img-c
+{
+    width:100px;
+    height:100px;
+}
+
+..carousel-item
+{
+  margin-top:-300px;
+}
+/* company info */
+/* Choose us */
+.choose-us
+{
+
+}
+.choose-us img
+{
+
+  max-width:100%;
+}
+
+.choose-us .col-6
+{
+  padding:0;
+}
+.choose-us .col-6:last-child
+{
+  background-color:#08526d;
+  color:#fff;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.choose-us  h2
+{
+  margin:40px;
+
+
+}
+.choose-us p
+{
+  margin:40px;
+  line-height:2;
+  color:#fff;
+  font-size:18px;
+}
+.btn-danger
+{
+  width:200px;
+  padding:10px;
+  margin-top:-20px;
+}
+/* choose us */
+
+/* Statistics */
+
+
+.Statistics
+{
+  margin-top:5%;
+
+}
+.Statistics .tat-box
+{
+  margin-bottom:40px;
+}
+
+.Statistics i
+{
+  background:#08526d;
+}
+.Statistics p
+{
+  color:red;
+}
+
+/* Statistics */
+
+/* contact */
+.contact
+{
+  padding:70px 0;
+  background-color:#08526d;
+  color:#fff;
+  font-size:20px;
+  margin-top:20px;
+}
+.contact p
+{
+  color:#fff;
+  margin:0;
+}
+.contact a
+{
+  color:#fff;
+  text-decoration:none;
+  .background:#ec1c23;
+  padding:10px;
+  border:none;
+  border-radius:2px;
+}
+
+/* contact */
+/*  footer */
+
+
+.footer
+{
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background:url('../images/slider10.jpg');
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+    padding:100px 0;
+
+}
+.footer .info h2 span:first-child
+{
+  font-weight:bold;
+  color:#fff;
+  font-size:30px;
+  margin-left:5%;
+  font-weight: bold;
+}
+
+.footer a
+{
+   color:#fff;
+   text-decoration: none;
+
+}
+..footer .info a
+{
+  background-color:#ec1c23;
+  padding:10px;
+  border:none;
+  border-radius:5px;
+
+
+}
+
+
+.footer .info a::before
+{
+  content: '';
+  display: inline-block;
+
+}
+.footer .info i
+{
+   font-size:10px;
+   background:yellow;
+   color:#000;
+   margin-right:5px;
+
+}
+   .footer .info a:hover
+   {
+      color:#000;
+      background:yellow;
+      padding:8px;
+      width:100px;
+      border:none;
+      border-radius:5px;
+      text-decoration: none;
+   }
+
+   .footer .contact-us a:hover
+   {
+     color:yellow;
+   }
+
+   .footer .help-link a:hover
+   {
+     color:yellow;
+   }
+
+      .footer .info i
+      {
+         font-size:20px;
+      }
+
+
+
+   .footer h2,h4
+   {
+     margin-bottom:40px;
+   }
+.footer .info  h2 .s-red
+{
+  font-size:30px;
+  color:#ec1c23;
+  font-weight: bold;
+}
+.footer  h4
+{
+  color:#fff;
+}
+.footer  p
+{
+  color:#fff;
+}
+.footer  ul
+{
+  list-style:none;
+}
+
+
+.contact-us ul li
+{
+  margin-bottom:20px;
+  display: inline-block;
+  color:#fff;
+}
+.contact-us ul li i
+{
+  margin-right:10px;
+  background-color:#ec1c23;
+}
+/*footer */
+
+
+/* CopyRight */
+.CopyRight
+{
+  background-color:#08526d;
+  color:#fff;
+}
+.CopyRight .col
+{
+  padding-top:40px;
+
+}
+.CopyRight .list-un-styled
+{
+   list-style:none;
+   display:inline-block;
+}
+
+.CopyRight ul li
+{
+  display:inline-block;
+}
+/* CopyRight */
